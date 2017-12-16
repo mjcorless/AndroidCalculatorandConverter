@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dev Calculator and Converter</string>
+    <string name="app_description">Calculator and Converter for developers and computer science majors.</string>
+    <string name="app_welcome">Version 1.0\nLast Updated: 12/16/2017</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
