@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="99dp"
+        android:orientation="vertical"
+        android:layout_weight="0.67" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="5"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight=".51"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="BS" />
+
+    </LinearLayout>
+</LinearLayout>
